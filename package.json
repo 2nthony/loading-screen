@@ -1,0 +1,48 @@
+{
+  "name": "loading-screen",
+  "description": "My transcendent project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "evillt/loading-screen"
+  },
+  "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
+  "files": [
+    "lib",
+    "app-dist"
+  ],
+  "main": "lib/plugin.js",
+  "scripts": {
+    "build": "poi --prod",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "connect": "^3.6.6",
+    "serve-static": "^1.13.2",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
+    "poi": "^12.6.5",
+    "prettier": "^1.15.2",
+    "unfetch": "^4.1.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,md}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  }
+}

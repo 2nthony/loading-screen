@@ -1,0 +1,91 @@
+/* Modified from @nuxt/loading-screen */
+
+.loading-screen {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  transition: opacity 0.4s;
+}
+
+.loading-screen.hide {
+  opacity: 0;
+}
+
+.loading-screen .row {
+  flex: 0 0 auto;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+.logo * {
+  width: inherit;
+  height: inherit;
+}
+
+.v-enter-active, .v-leave-active {
+  transition-delay: 0.5s;
+  transition-property: all;
+  transition-duration: 0.6s;
+}
+
+.v-enter, .v-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.placeholder {
+  text-align: center;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #383838;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+h3.hasErrors {
+  color: #D0021B;
+}
+
+h4 {
+  margin-bottom: 30px;
+  font-size: 15px;
+  color: #383838;
+}
+
+.progress_bar_container {
+  background-color: #DDDDDD;
+  border-radius: 6px;
+  width: 500px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.progress_bar {
+  border-radius: 6px;
+  height: 10px;
+  width: 10px;
+  transition: width 0.4s;
+}
+
+.progress_bar.client {
+  background-color: #8ed5fb;
+}
+
+.progress_bar.server {
+  background-color: #1b78bf;
+}
+
+.progress_bar.modern {
+  background-color: #2F495E;
+}
+
