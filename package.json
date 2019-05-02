@@ -1,6 +1,6 @@
 {
   "name": "loading-screen",
-  "description": "My transcendent project",
+  "description": "⚙️Loading screen for webpack plugin",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
@@ -44,5 +44,13 @@
         "git add"
       ]
     }
-  }
+  },
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "vue",
+    "loading-screen",
+    "it-just-works",
+    "nuxt"
+  ]
 }
