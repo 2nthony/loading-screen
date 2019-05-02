@@ -11,7 +11,7 @@
 
 ## Introduction
 
-To show loading screen for webpack.
+Display webpack building progress in the browser.
 
 **_This plugin is recommended for webpack-based app bundler._**
 
@@ -35,6 +35,8 @@ module.exports = {
 
 ## API
 
+`new LoadingScreenPlugin(options)`
+
 ### **listen**
 
 - Type: `[server.listen]`
@@ -49,7 +51,7 @@ Reference: https://nodejs.org/dist/latest-v10.x/docs/api/net.html#net_server_lis
 - Type: `(req, res) => void`
 - DefaultBehavior: Print loading screen server message.
 
-Only modified server listen callback.
+Only modify server listen callback.
 
 ### baseURL
 
