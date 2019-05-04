@@ -11,7 +11,7 @@
 [![License](https://badgen.net/npm/license/loading-screen)](./LICENSE)
 [![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
 
-![](https://user-images.githubusercontent.com/19513289/57092852-f2c66900-6d3e-11e9-9919-449361403b0a.gif)
+![](https://user-images.githubusercontent.com/19513289/57173244-66f82e00-6e5f-11e9-887d-2bf01df4dca7.gif)
 
 ## Introduction
 
