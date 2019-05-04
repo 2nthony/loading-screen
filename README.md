@@ -41,21 +41,19 @@ module.exports = {
 
 `new LoadingScreenPlugin(options)`
 
-### **listen**
+### port
 
-- Type: `[server.listen]`
-- Default: `[4000, serverCallback]`
+- Type: `number`
+- Default: `4000`
 
-The server listen instance.
+The loading screen server port.
 
-Reference: https://nodejs.org/dist/latest-v10.x/docs/api/net.html#net_server_listen
-
-### serverCallback
+### callback
 
 - Type: `(req, res) => void`
 - DefaultBehavior: Print loading screen server message.
 
-Only modify server listen callback.
+The loading screen server callback.
 
 ### baseURL
 
