@@ -44,7 +44,7 @@ module.exports = {
 ### port
 
 - Type: `number`
-- Default: `4000`
+- Default: `process.env.port || 4000`
 
 The loading screen server port.
 
