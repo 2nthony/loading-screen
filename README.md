@@ -41,6 +41,15 @@ module.exports = {
 
 `new LoadingScreenPlugin(options)`
 
+### host
+
+- Type: `string`
+- Default: `'localhost'`
+
+The loading screen server host.
+
+P.S. CANNOT be the same as the app server host.
+
 ### port
 
 - Type: `number`
