@@ -8,7 +8,7 @@
 
 [![NPM version](https://badgen.net/npm/v/loading-screen)](https://npmjs.com/package/loading-screen)
 [![NPM download](https://badgen.net/npm/dm/loading-screen)](https://npmjs.com/package/loading-screen)
-[![License](https://badgen.net/npm/license/loading-screen)](./LICENSE)
+[![CircleCI](https://badgen.net/circleci/github/evillt/loading-screen)](https://circleci.com/gh/evillt/juh/tree/master)
 [![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
 
 ![](https://user-images.githubusercontent.com/19513289/57173244-66f82e00-6e5f-11e9-887d-2bf01df4dca7.gif)
