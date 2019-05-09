@@ -2,8 +2,6 @@
 
 <img src="https://user-images.githubusercontent.com/19513289/57039264-c0f5c980-6c8e-11e9-8894-3737f5671900.png" alt="logo">
 
-> Using poi? You might wanna try [poi-plugin-loading-screen]
-
 ---
 
 [![NPM version](https://badgen.net/npm/v/loading-screen?icon=npm)](https://npmjs.com/package/loading-screen)
@@ -104,10 +102,6 @@ Reference: https://webpack.js.org/plugins/progress-plugin/
 ## Credits
 
 - [**nuxt/loading-screen**](https://github.com/nuxt/loading-screen)
-
-## Relates
-
-- [poi-plugin-loading-screen]
 
 ## Contributing
 
