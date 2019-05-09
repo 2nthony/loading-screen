@@ -10,7 +10,10 @@
   "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
   "files": [
     "lib",
-    "app-dist"
+    "app-dist",
+    "*.js",
+    "!app",
+    "!poi.config.js"
   ],
   "main": "lib/plugin.js",
   "scripts": {
