@@ -35,6 +35,22 @@ module.exports = {
 }
 ```
 
+## Frameworks Support
+
+### poi
+
+In your `poi.config.js`:
+
+```js
+module.exports = {
+  plugins: ['loading-screen/poi']
+}
+```
+
+### vue/cli
+
+TODO
+
 ## API
 
 `new LoadingScreenPlugin(options)`
