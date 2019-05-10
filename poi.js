@@ -3,9 +3,8 @@ const colors = require('@poi/dev-utils/colors')
 
 exports.name = 'loading-screen'
 
-exports.when = api => api.args.has('s') || api.args.has('serve')
-
 exports.apply = api => {
+  if (!api.args.has('s') && !api.args.has('serve')) return
   /**
    * Prepare arguments for open browser
    */
