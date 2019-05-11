@@ -18,15 +18,22 @@ exports.apply = api => {
    */
   delete config.devServer.open
 
-  console.log()
-  console.log('You can now view your app in the browser:')
-  console.log(`Local:             http://${prettyHost}:${colors.bold(port)}`)
-  console.log()
-
-  /**
-   * Override poi progress plugin
-   */
   api.hook('createWebpackChain', config => {
+    config.plugin('print-loading-screen-serve').use({
+      apply(compiler) {
+        compiler.hooks.afterPlugins.tap('print-loading-screen-serve', () => {
+          console.log()
+          console.log('You can now view your app in the browser:')
+          console.log(
+            `Local:             http://${prettyHost}:${colors.bold(port)}`
+          )
+          console.log()
+        })
+      }
+    })
+    /**
+     * Override poi progress plugin
+     */
     config.plugin('progress').init(
       (_, [handler]) =>
         new LoadingScreenPlugin({
