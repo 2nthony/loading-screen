@@ -49,7 +49,28 @@ module.exports = {
 
 ### vue/cli
 
-TODO
+Recommended to use it in `vue.config.js`:
+
+> Because vue/cli exposed plugin api is not as much as poi.
+
+```js
+const LoadingScreenPlugin = require('loading-screen')
+
+module.exports = {
+  chainWebpack(config) {
+    config.plugin('loading-screen').use(LoadingScreenPlugin, [
+      {
+        logo: 'https://vuejs.org/images/logo.png', // vue logo
+        theme: {
+          client: '#4fc08d' // vue color
+        },
+        port: 8080,
+        callback() {}
+      }
+    ])
+  }
+}
+```
 
 ## API
 
