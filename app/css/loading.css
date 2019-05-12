@@ -76,16 +76,3 @@ h4 {
   width: 10px;
   transition: width 0.4s;
 }
-
-.progress_bar.client {
-  background-color: #8ed5fb;
-}
-
-.progress_bar.server {
-  background-color: #1b78bf;
-}
-
-.progress_bar.modern {
-  background-color: #2F495E;
-}
-

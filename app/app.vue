@@ -21,7 +21,7 @@
       <div v-for="bundle of bundles" :key="bundle" class="row">
         <h3>{{ bundle | capitalize }} bundle</h3>
         <div class="progress_bar_container">
-          <div class="progress_bar" :class="bundle" :style="{ width: `${states[bundle].progress}%` }" />
+          <div class="progress_bar" :style="{ width: `${states[bundle].progress}%`, backgroundColor: theme[bundle] }" />
         </div>
         <h4>{{ states[bundle].status }}</h4>
       </div>
@@ -72,7 +72,8 @@ export default {
       isFinished: false,
       baseURL: window.$BASE_URL,
       bundles: [],
-      states: {}
+      states: {},
+      theme: window.$THEME
     }
   },
 

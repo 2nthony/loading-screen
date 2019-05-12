@@ -100,6 +100,27 @@ new LoadingScreenPlugin({
 })
 ```
 
+### theme
+
+- Type: `ThemeConfig`
+- Default: `DefaultThemeConfig`
+
+Customize loading screen progress bar color.
+
+```ts
+interface ThemeConfig {
+  client?: string
+  server?: string
+  modern?: string
+}
+
+const DefaultThemeConfig = {
+  client: '#8ed5fb',
+  server: '#1b78bf',
+  modern: '#2f495e'
+}
+```
+
 ### env
 
 - Type: `'development' | 'production'`
