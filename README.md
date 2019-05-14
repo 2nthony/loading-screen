@@ -1,5 +1,3 @@
-[poi-plugin-loading-screen]: https://github.com/evillt/poi-plugin-loading-screen
-
 <img src="https://user-images.githubusercontent.com/19513289/57039264-c0f5c980-6c8e-11e9-8894-3737f5671900.png" alt="logo">
 
 ---
