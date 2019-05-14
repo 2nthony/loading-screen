@@ -7,6 +7,8 @@
 [![CircleCI](https://badgen.net/circleci/github/evillt/loading-screen?icon=circleci)](https://circleci.com/gh/evillt/loading-screen/tree/master)
 [![$donate](https://badgen.net/badge/$/donate/f2a)](https://patreon.com/evillt)
 
+Please consider starring the project to show your ❤️ and support.
+
 ![](https://user-images.githubusercontent.com/19513289/57173244-66f82e00-6e5f-11e9-887d-2bf01df4dca7.gif)
 
 ## Introduction
