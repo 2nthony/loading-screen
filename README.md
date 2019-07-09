@@ -13,7 +13,7 @@ Please consider starring the project to show your ❤️ and support.
 
 ## Introduction
 
-Display webpack building progress in the browser.
+Webpack terminal information to browser.
 
 **_This plugin is recommended for webpack-based app bundler._**
 
@@ -22,6 +22,8 @@ Display webpack building progress in the browser.
 ```console
 yarn add loading-screen -D
 ```
+
+Using poi? Go [poi-plugin-loading-screen](https://github.com/evillt/poi-plugin-loading-screen)
 
 ## Usage
 
@@ -32,43 +34,6 @@ const LoadingScreenPlugin = require('loading-screen')
 
 module.exports = {
   plugins: [new LoadingScreenPlugin()]
-}
-```
-
-## Frameworks Support
-
-### poi
-
-In your `poi.config.js`:
-
-```js
-module.exports = {
-  plugins: ['loading-screen/poi']
-}
-```
-
-### vue/cli
-
-Recommended to use it in `vue.config.js`:
-
-> Because vue/cli exposed plugin api is not as much as poi.
-
-```js
-const LoadingScreenPlugin = require('loading-screen')
-
-module.exports = {
-  chainWebpack(config) {
-    config.plugin('loading-screen').use(LoadingScreenPlugin, [
-      {
-        logo: 'https://vuejs.org/images/logo.png', // vue logo
-        theme: {
-          client: '#4fc08d' // vue color
-        },
-        port: 8080,
-        callback() {}
-      }
-    ])
-  }
 }
 ```
 
