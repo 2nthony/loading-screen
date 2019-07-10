@@ -82,7 +82,7 @@ Or with regular HTML:
 
 ```js
 new LoadingScreenPlugin({
-  logo: '<svg xmlns>...</svg>'
+  logo: '<div>my logo</div>'
 })
 ```
 
@@ -121,6 +121,11 @@ Enable loading screen when is `'development'`, disable otherwise.
 Progress hooks report details.
 
 Reference: https://webpack.js.org/plugins/progress-plugin/
+
+### showPercent
+
+- Type: `boolean`
+- Default: `true`
 
 ## Credits
 
