@@ -76,3 +76,8 @@ h4 {
   width: 10px;
   transition: width 0.4s;
 }
+
+.progress_status_container {
+  display: flex;
+  justify-content: space-between;
+}

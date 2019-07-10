@@ -23,7 +23,10 @@
         <div class="progress_bar_container">
           <div class="progress_bar" :style="{ width: `${states[bundle].progress}%`, backgroundColor: theme[bundle] }" />
         </div>
-        <h4>{{ states[bundle].status }}</h4>
+        <div class="progress_status_container">
+          <h4>{{ states[bundle].status }}</h4>
+          <h4 v-if="theme.showPercent">{{ states[bundle].progress  }}%</h4>
+        </div>
       </div>
     </transition-group>
   </div>

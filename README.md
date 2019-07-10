@@ -122,6 +122,11 @@ Progress hooks report details.
 
 Reference: https://webpack.js.org/plugins/progress-plugin/
 
+### showPercent
+
+- Type: `boolean`
+- Default: `true`
+
 ## Credits
 
 - [**nuxt/loading-screen**](https://github.com/nuxt/loading-screen)
