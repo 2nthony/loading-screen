@@ -82,7 +82,7 @@ Or with regular HTML:
 
 ```js
 new LoadingScreenPlugin({
-  logo: '<svg xmlns>...</svg>'
+  logo: '<div>my logo</div>'
 })
 ```
 
